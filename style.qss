@@ -1,0 +1,32 @@
+/* style.qss - QSS similar a CSS para PyQt5/6 */
+QWidget {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-size: 15px;
+    background: #f4f6fa;
+    color: #222;
+}
+
+QPushButton {
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0;
+    margin: 12px 0;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+QPushButton:hover {
+    background: #115293;
+}
+
+QLabel {
+    margin-bottom: 8px;
+}
+
+QDialog {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+}
