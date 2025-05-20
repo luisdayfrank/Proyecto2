@@ -63,5 +63,4 @@ class CargarDatosWidget(QWidget):
         df = pd.DataFrame(all_partidos)
 
         # Guarda el DataFrame como tu "base de datos"
-        guardar_historial(df, "data/historial_general.xlsx")
-
+#        guardar_historial(df, "data/historial_general.xlsx")
