@@ -9,6 +9,7 @@ from PyQt5.QtCore import Qt, QTimer, QDateTime, QPropertyAnimation, QEasingCurve
 from PyQt5.QtGui import QIcon, QFont
 from cargar_datos_widget import CargarDatosWidget
 from visualizacion_jugadores_widget import VisualizacionJugadoresWidget
+from comparar_jugadores_widget import CompararJugadoresWidget
 # ---- Ejemplo de widgets "dummy" para Dashboard e Historial ----
 # Sustituye por tus widgets reales más adelante
 class DashboardWidget(QWidget):
@@ -114,6 +115,7 @@ class MainWindow(QMainWindow):
             ("Dashboard", "view-dashboard", self.show_page, DashboardWidget),
             ("Cargar Datos", "document-open", self.show_page, CargarDatosWidget),
             ("Jugadores", "user-identity", self.show_page, VisualizacionJugadoresWidget),
+            ("Versus", "user-identity", self.show_page, CompararJugadoresWidget),
             # Puedes añadir más páginas aquí
         ]
         # --------- FIN widgets ---------
